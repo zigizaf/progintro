@@ -18,5 +18,7 @@ def convert_temperature(value, from_unit, to_unit):
         elif to_unit == "K":
             return celsius + 273.15
 
-        
-print(convert_temperature(20, "C", "X"))
+for celsius in range(-40, 101, 20):
+    fahrenheit = convert_temperature(celsius, "C", "F")
+    kelvin = convert_temperature(celsius, "C", "K")
+    print (celsius, kelvin, fahrenheit)    
