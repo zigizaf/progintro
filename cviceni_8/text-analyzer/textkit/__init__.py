@@ -1,0 +1,1 @@
+"""Balíček textkit pro jednoduchou analýzu textu."""
